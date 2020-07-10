@@ -1,4 +1,4 @@
-/******************************************
+v/******************************************
     File Name: custom.css
 /****************************************** */
 
@@ -55,7 +55,7 @@ p {
 .header-bottom {
     float: left;
     width: 100%;
-    background: #157fda; 
+    background: #00287f; 
 }
 
 header {
@@ -89,7 +89,7 @@ header {
 }
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a:hover, .header-bottom nav.main-menu ul.nav.navbar-nav > li a:focus, .header-bottom nav.main-menu ul.nav.navbar-nav > li a.active {
     color: #fff;
-    background: #39b49b;
+    background: #ff04a8;
     box-shadow: 5px 5px 0 0px #fff;
 }
 .header-top {
@@ -358,7 +358,7 @@ body.clinic_version .first-section h2 {
 	float:right;
 }
 
-
+/*
 .service-time.middle::before {
 
     content: "";
@@ -374,7 +374,7 @@ body.clinic_version .first-section h2 {
     left: -70px;
 
 }
-
+*/
 .service-time.middle::after {
     content: "";
     display: block;
@@ -816,7 +816,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 .copyright-area {
     padding: 20px 0px;
-    background: #157fda;
+    background: #00287f;
     color: #fff;
 	float:left;
 	width:100%;
@@ -1347,13 +1347,31 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 
 }
 
+#ddiv {
+margin-top:100px;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 
+.mobileShow { display: none;}
 
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
 
+.mobileHide { display: inline; }
 
-
-
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
 
 
 
