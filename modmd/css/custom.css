@@ -25,7 +25,8 @@ v/******************************************
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700');
-* {font-family: 'Poppins', sans-serif;}
+* {font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;}
 h1,h2,h3,h4,h5,h6 {font-family: 'Poppins', sans-serif;}
 p {
     font-family: 'Poppins', sans-serif;
@@ -55,7 +56,7 @@ p {
 .header-bottom {
     float: left;
     width: 100%;
-    background: #00287f; 
+    background: #000000; 
 }
 
 header {
@@ -304,7 +305,7 @@ body.clinic_version .first-section h2 {
 .service-time {
     float: left;
     width: 100%;
-    min-height: 350px;
+    min-height: 450px;
     margin-top: 50px;
     padding: 50px;
     color: #fff;
@@ -346,7 +347,7 @@ body.clinic_version .first-section h2 {
 .service-time ul li {
     float: left;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
     border-bottom: dashed 1px #fff;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -725,7 +726,7 @@ body.clinic_version .footer .widget-title h3 {
 .contact-section {
     float: left;
     width: 100%;
-    min-height: 450px;
+    min-height: 350px;
     background: yellow;
 }
 .contact-section {
@@ -816,7 +817,7 @@ body.clinic_version .footer .widget-title h3 {
 }
 .copyright-area {
     padding: 20px 0px;
-    background: #00287f;
+    background: #000000;
     color: #fff;
 	float:left;
 	width:100%;
@@ -1348,7 +1349,7 @@ nav.main-menu .navbar-toggle {border: solid #fff 2px;}
 }
 
 #ddiv {
-margin-top:100px;
+margin-top:70px;
   display: table;
   margin-right: auto;
   margin-left: auto;
@@ -1360,7 +1361,7 @@ margin-top:100px;
   /* Smartphone Portrait and Landscape */
   @media only screen
     and (min-device-width : 320px)
-    and (max-device-width : 480px){ 
+    and (max-device-width : 667px){ 
       .mobileShow {display: inline;}
   }
 
@@ -1369,14 +1370,109 @@ margin-top:100px;
   /* Smartphone Portrait and Landscape */
   @media only screen
     and (min-device-width : 320px)
-    and (max-device-width : 480px){
+    and (max-device-width : 667px){
      .mobileHide { display: none;}
   }
 
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#000000;
+  height: 1px;
+}
 
+* {
+  box-sizing: border-box;
+}
 
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
 
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
 
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
 
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.nav-item {
+ margin-right: 50px;
+ letter-spacing: 1px;
+ }
 
