@@ -306,7 +306,7 @@ body.clinic_version .first-section h2 {
     float: left;
     width: 100%;
     min-height: 450px;
-    margin-top: 50px;
+    margin-top: 0px;
     padding: 50px;
     color: #fff;
     position: relative;
@@ -335,7 +335,7 @@ body.clinic_version .first-section h2 {
     width: 100%;
     text-align: center;
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
 }
 .service-time ul {
     margin: 0;
@@ -347,7 +347,7 @@ body.clinic_version .first-section h2 {
 .service-time ul li {
     float: left;
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     border-bottom: dashed 1px #fff;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -1472,7 +1472,7 @@ hr {
 }
 
 .nav-item {
- margin-right: 100px;
+ margin-right: 50px;
  letter-spacing: 2px;
  }
 
