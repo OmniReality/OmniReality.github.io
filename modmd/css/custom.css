@@ -305,7 +305,7 @@ body.clinic_version .first-section h2 {
 .service-time {
     float: left;
     width: 100%;
-    min-height: 450px;
+    min-height: 380px;
     margin-top: 0px;
     padding: 50px;
     color: #fff;
@@ -335,7 +335,7 @@ body.clinic_version .first-section h2 {
     width: 100%;
     text-align: center;
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 .service-time ul {
     margin: 0;
@@ -347,10 +347,10 @@ body.clinic_version .first-section h2 {
 .service-time ul li {
     float: left;
     width: 100%;
-    font-size: 18px;
-    border-bottom: dashed 1px #fff;
+    font-size: 14px;
+ /*   border-bottom: dashed 1px #fff;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 10px; */
 }
 .left {
 	float:left;
@@ -376,6 +376,7 @@ body.clinic_version .first-section h2 {
 
 }
 */
+/*
 .service-time.middle::after {
     content: "";
     display: block;
@@ -389,7 +390,7 @@ body.clinic_version .first-section h2 {
     border-left: solid #a0cff7 70px;
     right: -70px;
 }
-
+*/
 .service-time.one {
     position: relative;
     z-index: 1;
@@ -1414,7 +1415,7 @@ hr {
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 200%;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -1472,7 +1473,7 @@ hr {
 }
 
 .nav-item {
- margin-right: 50px;
+ margin-right: 70px;
  letter-spacing: 2px;
  }
 
