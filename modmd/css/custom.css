@@ -1123,7 +1123,7 @@ nav.main-menu .navbar-toggle {
 }
 .header-bottom nav.main-menu ul.nav.navbar-nav > li a {
     color: #fff;
-    font-size: 17px;
+    font-size: 20px;
     padding: 20px 20px;
     text-transform: none;
     letter-spacing: 0;
@@ -1356,20 +1356,8 @@ margin-top:70px;
   margin-left: auto;
 }
 
-     .mobile1 {margin-left:25%;}
-    .mobile2{margin-left: 5%;margin-top: 5%;}
-    .mobile3{margin-top: 5%;padding-right: 5%;padding-left: 5%}
-    .mobile4{margin-top: 5%;margin-right: 5%;}  
-    @media only screen
-     (max-device-width : 768px)
-     { 
-    .mobile1 {margin-left:0%;}
-    .mobile2{margin-left: 0%;margin-top: 0%;}
-    .mobile3{margin-top: 0%;padding-right: 0%;padding-left: 0%}
-    .mobile4{margin-top: 0%;margin-right: 0%;}    
-}
-     
-     
+
+   
 
 .mobileShow { display: none;}
 
@@ -1490,4 +1478,13 @@ hr {
  margin-right: 70px;
  letter-spacing: 2px;
  }
+ 
+  @media only screen and
+     (min-device-width : 768px)
+     { 
+    .mobile1 {margin-left:25%;}
+    .mobile2{margin-left: 5%;margin-top: 5%;}
+    .mobile3{margin-top: 5%;padding-right: 5%;padding-left: 5%}
+    .mobile4{margin-top: 5%;margin-right: 5%;}   
+}
 
